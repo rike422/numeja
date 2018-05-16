@@ -18,6 +18,8 @@ class TestNumeja < Test::Unit::TestCase
       assert_equal(Numeja.numerize('三割五分四厘一毛'), 0.3541)
       assert_equal(Numeja.numerize('九分八厘七毛六糸五忽四微三繊二沙零塵一埃'), 0.9876543201)
       assert_equal(Numeja.numerize('九割八分七厘六毛五糸四忽三微二繊零沙一塵'), 0.9876543201)
+      assert_equal(Numeja.numerize('二分の一'), 0.5)
+      assert_equal(Numeja.numerize('三分の一'), 1.to_f / 3.to_f)
     end
   end
 end

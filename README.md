@@ -34,5 +34,7 @@ Numeja.numerize('５０５') #  => 505
 Numeja.numerize('九八七六五四三二一零') # => 9_876_543_210
 Numeja.numerize('九分八厘七毛六糸五忽四微三繊二沙零塵一埃') # => 0.9876543201
 Numeja.numerize('九割八分七厘六毛五糸四忽三微二繊零沙一塵') # => 0.9876543201
+Numeja.numerize('二分の一') # => 0.5
+Numeja.numerize('三分の一') # => 0.33333333333...
 
 ```
