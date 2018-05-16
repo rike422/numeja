@@ -2,6 +2,8 @@
            
 Parse numbers in japanese numerals from String
 
+漢数字とかをInteger or Floatに変換するGem
+
 ## Installation
 
 Add this line to your application's Gemfile:
